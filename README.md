@@ -15,7 +15,7 @@ Play Subway Surfers using only your hand and webcam — no keyboard, no mouse, j
 ```bash
 pip install -r requirements.txt
 ```
-▶️ How to Run
+▶️ Run
 Open Subway Surfers on an emulator (Bluestacks or Online).
 
 Run hand_game.py
