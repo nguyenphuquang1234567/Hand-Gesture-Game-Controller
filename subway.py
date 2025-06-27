@@ -48,7 +48,7 @@ with mp_hands.Hands(
 
         # Ngăn spam phím quá nhanh
         current_time = time.time()
-        if action and (action != prev_action or current_time - last_time > 1):
+        if action and (action != prev_action or current_time - last_time > 0.3):
             pyautogui.press(action)
             prev_action = action
             last_time = current_time
